@@ -23,7 +23,8 @@ ul {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;  
+  /* top, bottom - left, right  */
+  margin: 0 auto;
 }
 
 .header {
@@ -54,6 +55,51 @@ ul {
   font-weight: bold;
 }
 
+/* HERO */
+.hero {
+  background-image: linear-gradient(45deg, #14532d, #22c55e);
+  padding: 50px 20px;
+  color: #e2e8f0;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+}
+
+.hero__grid-content h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.hero__grid-content p {
+  margin-bottom: 40px;
+}
+
+.hero__grid-content a {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.hero__grid-content a:hover {
+  background-color: gray;
+}
+
+.hero__grid-video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s;
+}
+
+.hero__grid-video:hover {
+  transform: rotate(5deg);
+}
 
 /* Tarjeta */
 .card {
