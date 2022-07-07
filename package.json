@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto practico para coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzostella07/coder-clon.git"
+  },
+  "author": "Enzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzostella07/coder-clon/issues"
+  },
+  "homepage": "https://github.com/enzostella07/coder-clon#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
